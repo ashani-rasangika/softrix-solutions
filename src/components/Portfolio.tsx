@@ -92,7 +92,7 @@ const Portfolio = () => {
               
               <CardHeader className="space-y-2">
                 <div className="flex items-center justify-between">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-sm">
                     {project.category}
                   </Badge>
                 </div>
@@ -100,11 +100,11 @@ const Portfolio = () => {
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p className="text-muted-foreground text-sm">{project.description}</p>
+                <p className="text-muted-foreground text-m">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="secondary" className="text-xs">
+                    <Badge key={techIndex} variant="secondary" className="text-sm">
                       {tech}
                     </Badge>
                   ))}

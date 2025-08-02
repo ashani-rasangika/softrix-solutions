@@ -59,7 +59,7 @@ const About = () => {
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl md:text-3xl font-bold text-primary">{stat.number}</div>
-                  <div className="text-sm text-muted-foreground">{stat.label}</div>
+                  <div className="text-m text-muted-foreground">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -77,7 +77,7 @@ const About = () => {
                     <value.icon className="h-6 w-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold">{value.title}</h3>
-                  <p className="text-muted-foreground text-sm">{value.description}</p>
+                  <p className="text-muted-foreground text-m">{value.description}</p>
                 </CardContent>
               </Card>
             ))}
