@@ -8,7 +8,7 @@ const Portfolio = () => {
     {
       title: "E-Commerce Platform",
       description: "A full-featured online store with payment integration, inventory management, and customer portal.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&h=400",
+      image: "https://i.ibb.co/4ZkDGQ3R/finguard.png",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
       category: "Web Application",
       status: "Completed"
@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       title: "University Portal System",
       description: "Academic management system for universities with student enrollment, course management, and grading.",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&h=400",
+      image: "https://i.ibb.co/MxjL2B2v/picture4.png",
       technologies: ["Vue.js", "Python", "Django", "MySQL"],
       category: "Academic Project",
       status: "Completed"
